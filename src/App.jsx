@@ -4,6 +4,7 @@ import { Home } from './pages/Home/Home';
 import { Menu } from './components/Menu/Menu';
 import { Blog } from './pages/Blog/Blog';
 import { Contato } from './pages/Contato/Contato';
+import { Usuarios } from './pages/Usuarios/Usuarios';
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route path='/' element={<Home/>}/>
                 <Route path='/blog' element={<Blog />} />
                 <Route path='/contato' element={<Contato />} />
+                <Route path='/usuario' element={<Usuarios />}/>
             </Routes>
         </BrowserRouter>
 
