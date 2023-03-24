@@ -8,20 +8,24 @@ import { Navbar, Nav, Container, Button } from "react-bootstrap";
                 <Container>
                 <Navbar.Brand href="#home">Menu</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Button variant="#home" >
+                        <Button variant="link" >
                             <Link to="/">Home</Link>
                         </Button>
 
-                        <Button variant="#features">
+                        <Button variant="link">
                             <Link to="/blog">Blog</Link>
                         </Button>
 
-                        <Button variant="#pricing">
+                        <Button variant="link">
                             <Link to="/contato">Contato</Link>
                         </Button>
                         
-                        <Button variant="#pricing">
+                        <Button variant="link">
                             <Link to="/usuario">Usuario</Link>
+                        </Button>
+
+                        <Button variant="link">
+                            <Link to="/login">Login</Link>
                         </Button>
                         
                     </Nav>
