@@ -27,6 +27,10 @@ import { Navbar, Nav, Container, Button } from "react-bootstrap";
                         <Button variant="link">
                             <Link to="/login">Login</Link>
                         </Button>
+
+                        <Button variant="link">
+                            <Link to="/produto">Produto</Link>
+                        </Button>
                         
                     </Nav>
                 </Container>
